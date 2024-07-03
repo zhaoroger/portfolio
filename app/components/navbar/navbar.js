@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image"
 
-import styles from "./Navbar.module.css";
+import styles from "./navbar.module.css";
 import closeIcon from '../../../assets/nav/closeIcon.png';
 import menuIcon from '../../../assets/nav/menuIcon.png';
 
