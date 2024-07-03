@@ -8,9 +8,9 @@ export default function opener() {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Roger</h1>
+        <h1 className={styles.title}>Hi, I&apos;m Roger</h1>
         <p className={styles.description}>
-          I'm a 3rd year CS student at the University of Toronto with experience with OOP in Java, 
+          I&apos;m a 3rd year CS student at the University of Toronto with experience with OOP in Java, 
           Web Development (JS, HTML, CSS, etc) and more!
         </p>
         <a href="roger.zhao@mail.utoronto.ca" className={styles.contactBtn}>
