@@ -4,22 +4,22 @@
       "imageSrc": "..public/kidridingbus.png",
       "description": "",
       "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://youtu.be/CiaZMcPThn8?si=ZCoB0MTBAkAbFoMY"
+      "source": "https://github.com/zhaoroger/Passion-Pals"
     },
     {
       "title": "Act It Out",
       "imageSrc": "../../../public/kidridingbus.png",
       "description": "",
       "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "demo": "https://www.youtube.com/watch?v=RjXqLJg1P7E&ab_channel=DarrenTrieu",
+      "source": "https://github.com/zhaoroger/Act-It-Out"
     },
     {
       "title": "Blue Tower",
       "imageSrc": "../../../public/kidridingbus.png",
       "description": "",
       "skills": ["Assembly"],
-      "source": "https://www.github.com"
+      "demo": "https://youtu.be/CiaZMcPThn8?si=ZCoB0MTBAkAbFoMY",
+      "source": "https://www.youtube.com/watch?v=RjXqLJg1P7E&ab_channel=DarrenTrieu"
     }
   ]
