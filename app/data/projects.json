@@ -2,25 +2,24 @@
     {
       "title": "Passion Pals",
       "imageSrc": "..public/kidridingbus.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://youtu.be/CiaZMcPThn8?si=ZCoB0MTBAkAbFoMY"
     },
     {
       "title": "Act It Out",
       "imageSrc": "../../../public/kidridingbus.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
+      "description": "",
+      "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
       "title": "Blue Tower",
       "imageSrc": "../../../public/kidridingbus.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
+      "description": "",
+      "skills": ["Assembly"],
       "source": "https://www.github.com"
     }
   ]

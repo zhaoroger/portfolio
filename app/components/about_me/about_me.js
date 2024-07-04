@@ -13,9 +13,10 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>Express</li>
         <li>PostgreSQL</li>
-        <li>Sequelize</li>
         <li>JavaScript</li>
         <li>React</li>
+        <li>Java</li>
+        <li>Python</li>
       </ul>
     ),
   },
@@ -24,18 +25,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className={styles.list_items}>
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className={styles.list_items}>
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>University of Toronto: CS Specialist</li>
       </ul>
     ),
   },
@@ -79,13 +69,6 @@ export default function Aboutme () {
             >
               {" "}
               Education{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              {" "}
-              Certifications{" "}
             </TabButton>
           </div>
           <div className={styles.tab_content}>

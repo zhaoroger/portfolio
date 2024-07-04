@@ -22,8 +22,8 @@ export default function opener() {
         alt="A picture"
         className={styles.heroImg}
       />
-      <div className={styles.topBlur} />
-      <div className={styles.bottomBlur} />
+      {/* <div className={styles.topBlur} />
+      <div className={styles.bottomBlur} /> */}
     </section>
   );
 };
