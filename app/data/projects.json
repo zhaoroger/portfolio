@@ -1,14 +1,14 @@
 [
     {
       "title": "Passion Pals",
-      "imageSrc": "..public/kidridingbus.png",
+      "imageSrc": "passionpals.png",
       "description": "",
       "skills": ["React", "Express", "Node"],
       "source": "https://github.com/zhaoroger/Passion-Pals"
     },
     {
       "title": "Act It Out",
-      "imageSrc": "../../../public/kidridingbus.png",
+      "imageSrc": "actitout.png",
       "description": "",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.youtube.com/watch?v=RjXqLJg1P7E&ab_channel=DarrenTrieu",
@@ -16,7 +16,7 @@
     },
     {
       "title": "Blue Tower",
-      "imageSrc": "../../../public/kidridingbus.png",
+      "imageSrc": "bluetower.png",
       "description": "",
       "skills": ["Assembly"],
       "demo": "https://youtu.be/CiaZMcPThn8?si=ZCoB0MTBAkAbFoMY",
