@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: center;
   gap: 60px;
-  padding: 5px 40px;
+  padding: 15px;
   transition: backdrop-filter 1s ease;
   border-radius: 90px;
   overflow: hidden;
@@ -24,12 +24,13 @@
   backdrop-filter: blur(20px) saturate(1.7) brightness(80%);
 }
 
-/*pick either background or backdrop-filter. my dumbass thought it would both work for some reason*/
+/*pick either background or backdrop-filter. my dumbass thought it would both work for some reason
+never mind it does work idfk why it wasnt*/
 
 .title {
   display: flex;
   flex-direction: column;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
@@ -53,50 +54,19 @@
 }
 
 .menuItems a {
-  font-size: 25px;
+  font-size: 20px;
   color: var(--color-text);
   text-decoration: none;
 }
 
 @media screen and (max-width: 830px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 
-  .menu {
-    position: absolute;
-    right: 0;
-    margin-right: 10%;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 11px;
-    z-index: 3;
-  }
-
-  .menuBtn {
-    display: block;
-    cursor: pointer;
+  .container {
+    gap: 15px;
+    padding: 5px 20px;
   }
 
   .menuItems {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    gap: 13px;
-    border-radius: 10px;
-    background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
-    padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  }
-
-  .menuOpen {
-    display: flex;
-    z-index: 1;
+    gap: 10px;
   }
 }

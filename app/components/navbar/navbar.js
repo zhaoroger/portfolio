@@ -28,14 +28,14 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.container} id="navbar">
         <a className={styles.title} href="#opener">
-        <Image
+        {/* <Image
           src="/kidridingbus.png"
           alt="A picture"
           className={styles.heroImg}
           height={75}
           width={75}
           style={{objectFit: "contain"}}
-        />
+        /> */}
         Roger
         </a>
         <div className={styles.menu}>
