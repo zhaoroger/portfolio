@@ -3,16 +3,18 @@
       "title": "Passion Pals",
       "imageSrc": "passionpals.png",
       "description": "",
-      "skills": ["React", "Express", "Node"],
-      "source": "https://github.com/zhaoroger/Passion-Pals"
+      "skills": ["React", "Express", "Node.js", "MongoDB"],
+      "demo": "https://www.youtube.com/watch?v=Ef_Qj6rHB5I&ab_channel=AmitozJatana",
+      "source": "https://github.com/zhaoroger/Passion-Pals",
+      "note": "Demo video by team member Amitoz Jatana"
     },
     {
       "title": "Act It Out",
       "imageSrc": "actitout.png",
-      "description": "",
-      "skills": ["React", "Express", "Node"],
+      "skills": ["React", "Express", "Node.js", "MongoDB"],
       "demo": "https://www.youtube.com/watch?v=RjXqLJg1P7E&ab_channel=DarrenTrieu",
-      "source": "https://github.com/zhaoroger/Act-It-Out"
+      "source": "https://github.com/zhaoroger/Act-It-Out",
+      "note": "Demo video by team member Darren Trieu"
     },
     {
       "title": "Blue Tower",
@@ -21,5 +23,22 @@
       "skills": ["Assembly"],
       "demo": "https://youtu.be/CiaZMcPThn8?si=ZCoB0MTBAkAbFoMY",
       "source": "https://www.youtube.com/watch?v=RjXqLJg1P7E&ab_channel=DarrenTrieu"
+    },
+    {
+      "title": "Science Graph Drawer",
+      "imageSrc": "sgd.png",
+      "description": "",
+      "skills": ["Java"],
+      "demo": "",
+      "source": "https://github.com/zhaoroger/Science-Graph-Drawer"
+    },
+    {
+      "title": "Class Scheduler",
+      "imageSrc": "kidridingbus.png",
+      "description": "",
+      "skills": ["Java", "Android"],
+      "demo": "",
+      "source": "https://github.com/zhaoroger/Class-Scheduler",
+      "note": "I do not have a picture or video currently"
     }
   ]

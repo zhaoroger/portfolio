@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main>
       <Navbar/>
-      <div className={styles.main}>
+      <div className={styles.main} id="opener">
         <Opener/>
         <About/>
         <Projects/>

@@ -4,7 +4,7 @@ import Image from "next/image";
 import styles from "./projectcard.module.css";
 
 export default function ProjectCard ({
-  project: { title, imageSrc, description, skills, demo, source },
+  project: { title, imageSrc, description, skills, demo, source, note },
 }) {
   return (
     <div className={styles.container}>
@@ -12,8 +12,9 @@ export default function ProjectCard ({
         src={`/${imageSrc}`}
         alt={`Image of ${title}`}
         className={styles.image}
-        width={350} // Adjust the width and height as necessary
-        height={200}
+        width={0}
+        height={0}
+        sizes="100vw"
       />
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
@@ -27,13 +28,20 @@ export default function ProjectCard ({
         })}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>
+        {demo && (
+          <a href={demo} className={styles.link}>
           Demo
-        </a>
-        <a href={source} className={styles.link}>
-          Source
-        </a>
+          </a>
+        )}
+        {source && (
+          <a href={source} className={styles.link}>
+          Code
+          </a>
+        )}
       </div>
+      {note && (
+        <p className={styles.note}>{note}</p>
+      )}
     </div>
   );
 };

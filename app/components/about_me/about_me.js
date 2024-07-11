@@ -6,17 +6,35 @@ import sickpic from "../../../public/kidridingbus.png"
 
 const TAB_DATA = [
   {
-    title: "Skills",
-    id: "skills",
+    title: "Languages",
+    id: "languages",
     content: (
       <ul className={styles.list_items}>
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>JavaScript</li>
-        <li>React</li>
         <li>Java</li>
         <li>Python</li>
+        <li>C</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>MIPS Assembly</li>
+        <li>Racket</li>
+        <li>Haskell</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Other Tools",
+    id: "other",
+    content: (
+      <ul className={styles.list_items}>
+        <li>Git</li>
+        <li>React</li>
+        <li>Express</li>
+        <li>Node.js</li>
+        <li>Tailwind</li>
+        <li>PostgreSQL</li>
+        <li>MongoDB</li>
+        <li>Docker</li>
       </ul>
     ),
   },
@@ -33,7 +51,7 @@ const TAB_DATA = [
 
 
 export default function Aboutme () {
-  const [tab, setTab] = useState("skills");
+  const [tab, setTab] = useState("languages");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -56,11 +74,18 @@ export default function Aboutme () {
           </p>
           <div className={styles.tab_section}>
             <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
+              selectTab={() => handleTabChange("languages")}
+              active={tab === "languages"}
             >
               {" "}
-              Skills{" "}
+              Languages{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("other")}
+              active={tab === "other"}
+            >
+              {" "}
+              Other Tools{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}

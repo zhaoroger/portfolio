@@ -1,18 +1,40 @@
 .navbar {
-  position: relative;
+  position: fixed;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 61px;
   z-index: 2;
-  margin: 0 10%;
+  width: 100%;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 5px 40px;
+  transition: backdrop-filter 1s ease;
+  border-radius: 90px;
+  overflow: hidden;
+}
+
+.scrolled {
+  /* background-color: #191919; */
+  backdrop-filter: blur(20px) saturate(1.7) brightness(80%);
+}
+
+/*pick either background or backdrop-filter. my dumbass thought it would both work for some reason*/
+
 .title {
+  display: flex;
+  flex-direction: column;
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  align-items: center;
 }
 
 
@@ -26,7 +48,7 @@
 
 .menuItems {
   display: flex;
-  gap: 47px;
+  gap: 20px;
   list-style: none;
 }
 
