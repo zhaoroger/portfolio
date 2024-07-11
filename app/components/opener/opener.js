@@ -2,20 +2,25 @@ import React from "react";
 import Image from "next/image";
 
 import styles from "./opener.module.css";
-import sickpic from "../../../public/kidridingbus.png"
+import sickpic from "../../../public/ihatethis.png"
 
-export default function opener() {
+export default function Opener() {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I&apos;m Roger</h1>
         <p className={styles.description}>
-          I&apos;m a 3rd year CS student at the University of Toronto with experience with OOP in Java, 
-          Web Development (JS, HTML, CSS, etc) and more!
+          I&apos;m a 3rd year CS student at the University of Toronto with experience Java, 
+          Web Development, and many other tools and CS concepts.
         </p>
-        <a href="roger.zhao@mail.utoronto.ca" className={styles.contactBtn}>
-          Contact Me
-        </a>
+        <div className={styles.buttoncontainer}>
+          <a href="roger.zhao@mail.utoronto.ca" className={styles.contactBtn}>
+            Contact Me
+          </a>
+          <a href="/Resume_Roger_Zhao.pdf" className={styles.contactBtn}>
+            Resume
+          </a>
+        </div>
       </div>
       <Image
         src={sickpic}
