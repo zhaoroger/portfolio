@@ -67,7 +67,7 @@ export default function Aboutme () {
           <h2 className={styles.about_header}>About Me</h2>
           <p className={styles.para}>
             Thanks for checking out this page. My name is Renzhi Zhao, but I prefer to go by Roger.
-            I am a third-year Computer Science student at the University of Toronto, specializing in Software Engineering. I am a quick learner, always eager and interested in exploring new technologies and concepts. 
+            I am a third-year Computer Science student at the University of Toronto, specializing in Software Engineering. I am a quick learner who is always eager and interested in exploring new technologies and concepts. 
             While I thrive in team-oriented environments, I also excel at working independently to tackle challenges and deliver high-quality results. Outside of CS, I am also pursuing a minor in Linguistics.
 
             <br/><br/>Throughout my studies, I have gained experience with various technologies and computer science concepts, continuously expanding my knowledge and skills.
