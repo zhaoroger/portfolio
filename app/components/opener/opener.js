@@ -10,7 +10,7 @@ export default function Opener() {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I&apos;m Roger</h1>
         <p className={styles.description}>
-          I&apos;m a 3rd year CS student at the University of Toronto with experience Java, 
+          I&apos;m a 4th year CS student at the University of Toronto with experience Java, 
           Web Development, and many other tools and CS concepts.
         </p>
         <div className={styles.buttoncontainer}>
